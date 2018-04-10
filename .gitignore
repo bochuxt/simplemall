@@ -12,3 +12,6 @@ base-serv/conf-server/target/
 base-serv/eureka-server/target/
 base-serv/hystrix-dashboard/target/
 base-serv/turbine-server/target/
+base-serv/zuul-server/target/
+base-serv/sleuth-server/target/
+.idea/
