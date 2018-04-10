@@ -1,0 +1,5 @@
+/Users/ghu/cicd/simplemall/base-serv/zuul-server/src/main/java/com/simplemall/micro/serv/zuul/filter/RoutingFitler.java
+/Users/ghu/cicd/simplemall/base-serv/zuul-server/src/main/java/com/simplemall/micro/serv/zuul/filter/AccessTokenFilter.java
+/Users/ghu/cicd/simplemall/base-serv/zuul-server/src/main/java/com/simplemall/micro/serv/zuul/filter/PostFilter.java
+/Users/ghu/cicd/simplemall/base-serv/zuul-server/src/main/java/com/simplemall/micro/serv/zuul/filter/ErrorFilter.java
+/Users/ghu/cicd/simplemall/base-serv/zuul-server/src/main/java/com/simplemall/micro/serv/zuul/ZuulServerApplication.java

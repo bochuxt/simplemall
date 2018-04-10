@@ -22,7 +22,7 @@
 		<module>front-app</module>
 		<module>common-module</module>
 	</modules>
-	
+
 	<!--<dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
@@ -32,5 +32,6 @@
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid-spring-boot-starter</artifactId>
 			<version>${alibaba.druid.version}<ersion>
-		</dependency> -->update pom next time
+		</dependency> -->
+
 </project>

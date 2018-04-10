@@ -1,0 +1,14 @@
+product-service/target/
+payment-service/target/
+*/project
+*/settings/
+*/target/
+front-app/.project
+base-serv/admin-server/target/
+base-serv/eureka-server/target/
+base-serv/eureka-server/target/
+base-serv/conf-server/.sts4-cache/
+base-serv/conf-server/target/
+base-serv/eureka-server/target/
+base-serv/hystrix-dashboard/target/
+base-serv/turbine-server/target/
