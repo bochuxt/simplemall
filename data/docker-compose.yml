@@ -15,9 +15,16 @@ services:
     image: adminer
     restart: always
     ports:
-      - 8081:8080
+      - 8090:8080
 
-
+  rabbitmq:
+    image: rabbitmq
+    ports:
+      - 5672:5672
+      - 15672:15672   #guest / guest
+      - 4369:4369
+      - 5671:5671
+      #rabbitmq-plugins set rabbitmq_management
 ## The Database
 #database:
 #  image: mysql:5.7

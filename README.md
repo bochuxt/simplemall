@@ -41,7 +41,9 @@
 
 # 相关测试
 	1、启动基础eureka/config两个服务后，直接启动front-app服务，通过swagger测试商品列表或详情功能来测试hystrix的功能
-	1.1、启动hystrix-dashboard服务，输入监控地址http://localhost:8088/hystrix.stream可以查看监控视图
+	1.1、启动hystrix-dashboard服务，输入监控地址
+	http://localhost:8088/hystrix.stream
+	可以查看监控视图
 	2、输入http://localhost:9005/account-service/acc/login?phone=123123&password=123123查看返回结果
 
 ## Release Version

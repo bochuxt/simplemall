@@ -455,3 +455,1289 @@ Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
 	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
 	... 27 common frames omitted
+2018-04-10 13:01:10.611 [Thread-7] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5c3bd550: startup date [Tue Apr 10 11:44:33 PDT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@368239c8
+2018-04-10 13:01:10.954 [Thread-7] INFO  o.s.c.s.DefaultLifecycleProcessor -Stopping beans in phase 0
+2018-04-10 13:01:11.013 [Thread-7] INFO  o.s.s.c.ThreadPoolTaskScheduler -Shutting down ExecutorService 'updateTaskScheduler'
+2018-04-10 13:01:11.088 [Thread-7] INFO  o.s.j.e.a.AnnotationMBeanExporter -Unregistering JMX-exposed beans on shutdown
+2018-04-10 13:01:11.089 [Thread-7] INFO  o.s.j.e.a.AnnotationMBeanExporter -Unregistering JMX-exposed beans
+2018-04-10 13:01:11.091 [Thread-7] INFO  o.s.s.c.ThreadPoolTaskScheduler -Shutting down ExecutorService 'registrationTaskScheduler'
+2018-04-10 13:01:11.196 [localhost-startStop-2] INFO  o.s.c.n.zuul.ZuulFilterInitializer -Stopping filter initializer context listener
+2018-04-10 17:29:00.465 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext -Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@368239c8: startup date [Tue Apr 10 17:29:00 PDT 2018]; root of context hierarchy
+2018-04-10 17:29:00.785 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-10 17:29:00.830 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$36b149b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-10 17:29:01.367 [main] INFO  c.s.m.s.b.a.AdminServerApplicaton -No active profile set, falling back to default profiles: default
+2018-04-10 17:29:01.388 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6a41eaa2: startup date [Tue Apr 10 17:29:01 PDT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@368239c8
+2018-04-10 17:29:02.300 [main] WARN  o.s.c.a.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-04-10 17:29:02.508 [main] INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=d28d985e-0c30-3629-b97c-efe391395b42
+2018-04-10 17:29:02.549 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-10 17:29:02.893 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$36b149b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-10 17:29:03.165 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat initialized with port(s): 9002 (http)
+2018-04-10 17:29:03.178 [main] INFO  o.a.catalina.core.StandardService -Starting service Tomcat
+2018-04-10 17:29:03.180 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-04-10 17:29:03.285 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2018-04-10 17:29:03.286 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 1897 ms
+2018-04-10 17:29:03.905 [localhost-startStop-1] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2018-04-10 17:29:03.906 [localhost-startStop-1] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-10 17:29:03.928 [localhost-startStop-1] INFO  c.n.config.DynamicPropertyFactory -DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@45f0c38b
+2018-04-10 17:29:04.418 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-10 17:29:04.420 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'zuulServlet' to [/zuul/*]
+2018-04-10 17:29:04.424 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'metricsFilter' to: [/*]
+2018-04-10 17:29:04.425 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-10 17:29:04.425 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-10 17:29:04.425 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-10 17:29:04.426 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-10 17:29:04.426 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-04-10 17:29:04.426 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-04-10 17:29:04.456 [localhost-startStop-1] INFO  o.s.c.n.zuul.ZuulFilterInitializer -Starting filter initializer context listener
+2018-04-10 17:29:04.570 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -jolokia: No access restrictor found, access to any MBean is allowed
+2018-04-10 17:29:05.005 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6a41eaa2: startup date [Tue Apr 10 17:29:01 PDT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@368239c8
+2018-04-10 17:29:05.173 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-10 17:29:05.174 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-10 17:29:05.179 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/api/applications/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> de.codecentric.boot.admin.registry.web.RegistryController.get(java.lang.String)
+2018-04-10 17:29:05.180 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/api/applications],methods=[POST]}" onto public org.springframework.http.ResponseEntity<de.codecentric.boot.admin.model.Application> de.codecentric.boot.admin.registry.web.RegistryController.register(de.codecentric.boot.admin.model.Application)
+2018-04-10 17:29:05.180 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/api/applications/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> de.codecentric.boot.admin.registry.web.RegistryController.unregister(java.lang.String)
+2018-04-10 17:29:05.180 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/api/applications],methods=[GET]}" onto public java.util.Collection<de.codecentric.boot.admin.model.Application> de.codecentric.boot.admin.registry.web.RegistryController.applications(java.lang.String)
+2018-04-10 17:29:05.193 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/api/journal],produces=[application/json]}" onto public java.util.Collection<de.codecentric.boot.admin.event.ClientApplicationEvent> de.codecentric.boot.admin.journal.web.JournalController.getJournal()
+2018-04-10 17:29:05.193 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/api/journal],produces=[text/event-stream]}" onto public org.springframework.web.servlet.mvc.method.annotation.SseEmitter de.codecentric.boot.admin.journal.web.JournalController.getJournalEvents()
+2018-04-10 17:29:05.208 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-04-10 17:29:05.235 [main] WARN  o.s.w.s.r.ResourceHttpRequestHandler -Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2018-04-10 17:29:05.235 [main] WARN  o.s.w.s.r.ResourceHttpRequestHandler -Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2018-04-10 17:29:05.237 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-10 17:29:05.237 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-10 17:29:05.237 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/all-modules.css] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-10 17:29:05.238 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/all-modules.js] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-10 17:29:05.289 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-10 17:29:05.715 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler -Initializing ExecutorService  'registrationTaskScheduler'
+2018-04-10 17:29:06.232 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-04-10 17:29:06.238 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:29:06.239 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-04-10 17:29:06.239 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-04-10 17:29:06.239 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-04-10 17:29:06.241 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2018-04-10 17:29:06.241 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2018-04-10 17:29:06.241 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:29:06.243 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2018-04-10 17:29:06.243 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-04-10 17:29:06.245 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:29:06.245 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-04-10 17:29:06.246 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2018-04-10 17:29:06.247 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:29:06.248 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2018-04-10 17:29:06.248 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:29:06.249 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-04-10 17:29:06.250 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:29:06.251 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/jolokia/**]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.actuate.endpoint.mvc.JolokiaMvcEndpoint.handle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-04-10 17:29:06.252 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:29:06.267 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:29:06.267 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:29:06.269 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:29:06.270 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-04-10 17:29:06.271 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:29:06.271 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/routes || /routes.json],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.String> org.springframework.cloud.netflix.zuul.RoutesEndpoint.reset()
+2018-04-10 17:29:06.271 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/routes || /routes.json],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.String> org.springframework.cloud.netflix.zuul.RoutesEndpoint.getRoutes()
+2018-04-10 17:29:06.272 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:29:06.394 [main] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2018-04-10 17:29:06.394 [main] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-10 17:29:06.428 [main] INFO  d.c.b.admin.web.PrefixHandlerMapping -Mapped "{[/api/applications/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> de.codecentric.boot.admin.registry.web.RegistryController.get(java.lang.String)
+2018-04-10 17:29:06.428 [main] INFO  d.c.b.admin.web.PrefixHandlerMapping -Mapped "{[/api/applications],methods=[POST]}" onto public org.springframework.http.ResponseEntity<de.codecentric.boot.admin.model.Application> de.codecentric.boot.admin.registry.web.RegistryController.register(de.codecentric.boot.admin.model.Application)
+2018-04-10 17:29:06.429 [main] INFO  d.c.b.admin.web.PrefixHandlerMapping -Mapped "{[/api/applications/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> de.codecentric.boot.admin.registry.web.RegistryController.unregister(java.lang.String)
+2018-04-10 17:29:06.429 [main] INFO  d.c.b.admin.web.PrefixHandlerMapping -Mapped "{[/api/applications],methods=[GET]}" onto public java.util.Collection<de.codecentric.boot.admin.model.Application> de.codecentric.boot.admin.registry.web.RegistryController.applications(java.lang.String)
+2018-04-10 17:29:06.429 [main] INFO  d.c.b.admin.web.PrefixHandlerMapping -Mapped "{[/api/journal],produces=[application/json]}" onto public java.util.Collection<de.codecentric.boot.admin.event.ClientApplicationEvent> de.codecentric.boot.admin.journal.web.JournalController.getJournal()
+2018-04-10 17:29:06.430 [main] INFO  d.c.b.admin.web.PrefixHandlerMapping -Mapped "{[/api/journal],produces=[text/event-stream]}" onto public org.springframework.web.servlet.mvc.method.annotation.SseEmitter de.codecentric.boot.admin.journal.web.JournalController.getJournalEvents()
+2018-04-10 17:29:06.459 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler -Initializing ExecutorService  'updateTaskScheduler'
+2018-04-10 17:29:06.551 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2018-04-10 17:29:06.558 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-04-10 17:29:06.559 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-04-10 17:29:06.560 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-04-10 17:29:06.560 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-04-10 17:29:06.561 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2018-04-10 17:29:06.569 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'zuulEndpoint' has been autodetected for JMX exposure
+2018-04-10 17:29:06.572 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-04-10 17:29:06.586 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2018-04-10 17:29:06.595 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-04-10 17:29:06.609 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'zuulEndpoint': registering with JMX server as MBean [org.springframework.cloud.netflix.zuul:name=zuulEndpoint,type=RoutesEndpoint]
+2018-04-10 17:29:06.612 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=6a41eaa2,type=ConfigurationPropertiesRebinder]
+2018-04-10 17:29:06.617 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-04-10 17:29:06.744 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -jolokia: No access restrictor found, access to any MBean is allowed
+2018-04-10 17:29:06.754 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -jolokia: jolokia:type=Config is already registered. Adding it with jolokia:type=Config,uuid=a7896f61-d231-4297-ab1c-dd8f4ce3ad2c, but you should revise your setup in order to either use a qualifier or ensure, that only a single agent gets registered (otherwise history functionality might not work)
+2018-04-10 17:29:06.755 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -jolokia: Cannot register (legacy) MBean handler for config store with name jmx4perl:type=Config since it already exists. This is the case if another agent has been already started within the same JVM. The registration is skipped.
+2018-04-10 17:29:06.755 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -jolokia: Jolokia Discovery MBean registration is skipped because there is already one registered.
+2018-04-10 17:29:06.792 [main] INFO  o.s.c.s.DefaultLifecycleProcessor -Starting beans in phase 0
+2018-04-10 17:29:06.923 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat started on port(s): 9002 (http)
+2018-04-10 17:29:06.932 [main] INFO  c.s.m.s.b.a.AdminServerApplicaton -Started AdminServerApplicaton in 6.948 seconds (JVM running for 8.09)
+2018-04-10 17:29:07.114 [http-nio-9002-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-10 17:29:07.115 [http-nio-9002-exec-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-10 17:29:07.139 [http-nio-9002-exec-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2018-04-10 17:29:07.159 [http-nio-9002-exec-1] WARN  o.s.c.n.zuul.web.ZuulHandlerMapping -No routes found from RouteLocator
+2018-04-10 17:29:07.239 [http-nio-9002-exec-1] INFO  d.c.b.a.registry.ApplicationRegistry -New Application Application [id=43b05411, name=SpringBootAdminServer, managementUrl=http://10.0.0.119:9002, healthUrl=http://10.0.0.119:9002/health, serviceUrl=http://10.0.0.119:9002] registered 
+2018-04-10 17:30:22.845 [http-nio-9002-exec-1] WARN  d.c.b.admin.registry.StatusUpdater -Couldn't retrieve status for Application [id=43b05411, name=SpringBootAdminServer, managementUrl=http://10.0.0.119:9002, healthUrl=http://10.0.0.119:9002/health, serviceUrl=http://10.0.0.119:9002]
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://10.0.0.119:9002/health": Connect to 10.0.0.119:9002 [/10.0.0.119] failed: Operation timed out (Connection timed out); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:9002 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:613)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:312)
+	at de.codecentric.boot.admin.registry.StatusUpdater.queryStatus(StatusUpdater.java:78)
+	at de.codecentric.boot.admin.registry.StatusUpdater.updateStatus(StatusUpdater.java:62)
+	at de.codecentric.boot.admin.registry.StatusUpdateApplicationListener.onClientApplicationRegistered(StatusUpdateApplicationListener.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:253)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:174)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:137)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:350)
+	at de.codecentric.boot.admin.registry.ApplicationRegistry.register(ApplicationRegistry.java:82)
+	at de.codecentric.boot.admin.registry.web.RegistryController.register(RegistryController.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:9002 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:89)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652)
+	... 84 common frames omitted
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 97 common frames omitted
+2018-04-10 17:30:22.910 [registrationTask1] INFO  d.c.b.a.s.ApplicationRegistrator -Application registered itself as {managementUrl=http://10.0.0.119:9002, healthUrl=http://10.0.0.119:9002/health, serviceUrl=http://10.0.0.119:9002, name=SpringBootAdminServer, id=43b05411, statusInfo={status=UNKNOWN, timestamp=1523406547239}}
+2018-04-10 17:30:22.923 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/health/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:30:22.924 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/env/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:30:22.924 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/metrics/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:30:22.924 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/trace/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:30:22.924 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/dump/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:30:22.924 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/jolokia/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:30:22.925 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/info/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:30:22.925 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/logfile/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:30:22.925 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/refresh/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:30:22.925 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/flyway/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:30:22.925 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/liquibase/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:30:22.925 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/heapdump/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:30:42.490 [updateTask1] WARN  d.c.b.admin.registry.StatusUpdater -Couldn't retrieve status for Application [id=43b05411, name=SpringBootAdminServer, managementUrl=http://10.0.0.119:9002, healthUrl=http://10.0.0.119:9002/health, serviceUrl=http://10.0.0.119:9002]
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://10.0.0.119:9002/health": Connect to 10.0.0.119:9002 [/10.0.0.119] failed: Operation timed out (Connection timed out); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:9002 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:613)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:312)
+	at de.codecentric.boot.admin.registry.StatusUpdater.queryStatus(StatusUpdater.java:78)
+	at de.codecentric.boot.admin.registry.StatusUpdater.updateStatus(StatusUpdater.java:62)
+	at de.codecentric.boot.admin.registry.StatusUpdater.updateStatusForAllApplications(StatusUpdater.java:55)
+	at de.codecentric.boot.admin.registry.StatusUpdateApplicationListener$1.run(StatusUpdateApplicationListener.java:55)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:9002 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:89)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652)
+	... 14 common frames omitted
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 27 common frames omitted
+2018-04-10 17:34:47.765 [Thread-7] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6a41eaa2: startup date [Tue Apr 10 17:29:01 PDT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@368239c8
+2018-04-10 17:34:47.788 [Thread-7] INFO  o.s.c.s.DefaultLifecycleProcessor -Stopping beans in phase 0
+2018-04-10 17:34:47.794 [Thread-7] INFO  o.s.s.c.ThreadPoolTaskScheduler -Shutting down ExecutorService 'updateTaskScheduler'
+2018-04-10 17:34:47.806 [Thread-7] INFO  o.s.j.e.a.AnnotationMBeanExporter -Unregistering JMX-exposed beans on shutdown
+2018-04-10 17:34:47.807 [Thread-7] INFO  o.s.j.e.a.AnnotationMBeanExporter -Unregistering JMX-exposed beans
+2018-04-10 17:34:47.808 [Thread-7] INFO  o.s.s.c.ThreadPoolTaskScheduler -Shutting down ExecutorService 'registrationTaskScheduler'
+2018-04-10 17:34:47.882 [localhost-startStop-2] INFO  o.s.c.n.zuul.ZuulFilterInitializer -Stopping filter initializer context listener
+2018-04-10 17:35:04.586 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext -Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@368239c8: startup date [Tue Apr 10 17:35:04 PDT 2018]; root of context hierarchy
+2018-04-10 17:35:04.914 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-10 17:35:04.994 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$36b149b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-10 17:35:05.438 [main] INFO  c.s.m.s.b.a.AdminServerApplicaton -No active profile set, falling back to default profiles: default
+2018-04-10 17:35:05.457 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5c3bd550: startup date [Tue Apr 10 17:35:05 PDT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@368239c8
+2018-04-10 17:35:06.242 [main] WARN  o.s.c.a.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-04-10 17:35:06.384 [main] INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=d28d985e-0c30-3629-b97c-efe391395b42
+2018-04-10 17:35:06.407 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-10 17:35:06.521 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$36b149b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-10 17:35:06.784 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat initialized with port(s): 9002 (http)
+2018-04-10 17:35:06.795 [main] INFO  o.a.catalina.core.StandardService -Starting service Tomcat
+2018-04-10 17:35:06.797 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-04-10 17:35:06.884 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2018-04-10 17:35:06.884 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 1427 ms
+2018-04-10 17:35:07.437 [localhost-startStop-1] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2018-04-10 17:35:07.438 [localhost-startStop-1] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-10 17:35:07.447 [localhost-startStop-1] INFO  c.n.config.DynamicPropertyFactory -DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@d30965f
+2018-04-10 17:35:07.772 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-10 17:35:07.773 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'zuulServlet' to [/zuul/*]
+2018-04-10 17:35:07.777 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'metricsFilter' to: [/*]
+2018-04-10 17:35:07.777 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-10 17:35:07.777 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-10 17:35:07.777 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-10 17:35:07.778 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-10 17:35:07.778 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-04-10 17:35:07.778 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-04-10 17:35:07.801 [localhost-startStop-1] INFO  o.s.c.n.zuul.ZuulFilterInitializer -Starting filter initializer context listener
+2018-04-10 17:35:07.893 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -jolokia: No access restrictor found, access to any MBean is allowed
+2018-04-10 17:35:08.205 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5c3bd550: startup date [Tue Apr 10 17:35:05 PDT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@368239c8
+2018-04-10 17:35:08.326 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-10 17:35:08.327 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-10 17:35:08.332 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/api/applications/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> de.codecentric.boot.admin.registry.web.RegistryController.get(java.lang.String)
+2018-04-10 17:35:08.332 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/api/applications],methods=[POST]}" onto public org.springframework.http.ResponseEntity<de.codecentric.boot.admin.model.Application> de.codecentric.boot.admin.registry.web.RegistryController.register(de.codecentric.boot.admin.model.Application)
+2018-04-10 17:35:08.333 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/api/applications/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> de.codecentric.boot.admin.registry.web.RegistryController.unregister(java.lang.String)
+2018-04-10 17:35:08.333 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/api/applications],methods=[GET]}" onto public java.util.Collection<de.codecentric.boot.admin.model.Application> de.codecentric.boot.admin.registry.web.RegistryController.applications(java.lang.String)
+2018-04-10 17:35:08.336 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/api/journal],produces=[application/json]}" onto public java.util.Collection<de.codecentric.boot.admin.event.ClientApplicationEvent> de.codecentric.boot.admin.journal.web.JournalController.getJournal()
+2018-04-10 17:35:08.336 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/api/journal],produces=[text/event-stream]}" onto public org.springframework.web.servlet.mvc.method.annotation.SseEmitter de.codecentric.boot.admin.journal.web.JournalController.getJournalEvents()
+2018-04-10 17:35:08.351 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-04-10 17:35:08.375 [main] WARN  o.s.w.s.r.ResourceHttpRequestHandler -Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2018-04-10 17:35:08.375 [main] WARN  o.s.w.s.r.ResourceHttpRequestHandler -Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2018-04-10 17:35:08.377 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-10 17:35:08.378 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-10 17:35:08.378 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/all-modules.css] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-10 17:35:08.382 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/all-modules.js] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-10 17:35:08.435 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-10 17:35:08.744 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler -Initializing ExecutorService  'registrationTaskScheduler'
+2018-04-10 17:35:09.365 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2018-04-10 17:35:09.366 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2018-04-10 17:35:09.367 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:35:09.368 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:35:09.369 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-04-10 17:35:09.370 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-04-10 17:35:09.372 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-04-10 17:35:09.373 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:35:09.374 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:35:09.374 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2018-04-10 17:35:09.385 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:35:09.386 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:35:09.388 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-04-10 17:35:09.388 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-04-10 17:35:09.389 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-04-10 17:35:09.389 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:35:09.390 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-04-10 17:35:09.391 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:35:09.391 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:35:09.392 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:35:09.392 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:35:09.393 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/jolokia/**]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.actuate.endpoint.mvc.JolokiaMvcEndpoint.handle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-04-10 17:35:09.394 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2018-04-10 17:35:09.395 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2018-04-10 17:35:09.396 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/routes || /routes.json],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.String> org.springframework.cloud.netflix.zuul.RoutesEndpoint.reset()
+2018-04-10 17:35:09.396 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/routes || /routes.json],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.String> org.springframework.cloud.netflix.zuul.RoutesEndpoint.getRoutes()
+2018-04-10 17:35:09.396 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-04-10 17:35:09.408 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-04-10 17:35:09.552 [main] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2018-04-10 17:35:09.553 [main] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-04-10 17:35:09.591 [main] INFO  d.c.b.admin.web.PrefixHandlerMapping -Mapped "{[/api/applications/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> de.codecentric.boot.admin.registry.web.RegistryController.get(java.lang.String)
+2018-04-10 17:35:09.591 [main] INFO  d.c.b.admin.web.PrefixHandlerMapping -Mapped "{[/api/applications],methods=[POST]}" onto public org.springframework.http.ResponseEntity<de.codecentric.boot.admin.model.Application> de.codecentric.boot.admin.registry.web.RegistryController.register(de.codecentric.boot.admin.model.Application)
+2018-04-10 17:35:09.592 [main] INFO  d.c.b.admin.web.PrefixHandlerMapping -Mapped "{[/api/applications/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> de.codecentric.boot.admin.registry.web.RegistryController.unregister(java.lang.String)
+2018-04-10 17:35:09.592 [main] INFO  d.c.b.admin.web.PrefixHandlerMapping -Mapped "{[/api/applications],methods=[GET]}" onto public java.util.Collection<de.codecentric.boot.admin.model.Application> de.codecentric.boot.admin.registry.web.RegistryController.applications(java.lang.String)
+2018-04-10 17:35:09.592 [main] INFO  d.c.b.admin.web.PrefixHandlerMapping -Mapped "{[/api/journal],produces=[application/json]}" onto public java.util.Collection<de.codecentric.boot.admin.event.ClientApplicationEvent> de.codecentric.boot.admin.journal.web.JournalController.getJournal()
+2018-04-10 17:35:09.593 [main] INFO  d.c.b.admin.web.PrefixHandlerMapping -Mapped "{[/api/journal],produces=[text/event-stream]}" onto public org.springframework.web.servlet.mvc.method.annotation.SseEmitter de.codecentric.boot.admin.journal.web.JournalController.getJournalEvents()
+2018-04-10 17:35:09.617 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler -Initializing ExecutorService  'updateTaskScheduler'
+2018-04-10 17:35:09.730 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2018-04-10 17:35:09.738 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-04-10 17:35:09.739 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-04-10 17:35:09.740 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-04-10 17:35:09.741 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-04-10 17:35:09.742 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2018-04-10 17:35:09.744 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'zuulEndpoint' has been autodetected for JMX exposure
+2018-04-10 17:35:09.747 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-04-10 17:35:09.760 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2018-04-10 17:35:09.771 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-04-10 17:35:09.785 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'zuulEndpoint': registering with JMX server as MBean [org.springframework.cloud.netflix.zuul:name=zuulEndpoint,type=RoutesEndpoint]
+2018-04-10 17:35:09.789 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=5c3bd550,type=ConfigurationPropertiesRebinder]
+2018-04-10 17:35:09.794 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-04-10 17:35:09.884 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -jolokia: No access restrictor found, access to any MBean is allowed
+2018-04-10 17:35:09.893 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -jolokia: jolokia:type=Config is already registered. Adding it with jolokia:type=Config,uuid=78a62fca-f649-4081-9b26-d45da99b0c90, but you should revise your setup in order to either use a qualifier or ensure, that only a single agent gets registered (otherwise history functionality might not work)
+2018-04-10 17:35:09.894 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -jolokia: Cannot register (legacy) MBean handler for config store with name jmx4perl:type=Config since it already exists. This is the case if another agent has been already started within the same JVM. The registration is skipped.
+2018-04-10 17:35:09.894 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -jolokia: Jolokia Discovery MBean registration is skipped because there is already one registered.
+2018-04-10 17:35:09.929 [main] INFO  o.s.c.s.DefaultLifecycleProcessor -Starting beans in phase 0
+2018-04-10 17:35:10.033 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat started on port(s): 9002 (http)
+2018-04-10 17:35:10.042 [main] INFO  c.s.m.s.b.a.AdminServerApplicaton -Started AdminServerApplicaton in 6.075 seconds (JVM running for 6.766)
+2018-04-10 17:35:10.189 [http-nio-9002-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-10 17:35:10.189 [http-nio-9002-exec-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-10 17:35:10.207 [http-nio-9002-exec-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+2018-04-10 17:35:10.226 [http-nio-9002-exec-1] WARN  o.s.c.n.zuul.web.ZuulHandlerMapping -No routes found from RouteLocator
+2018-04-10 17:35:10.294 [http-nio-9002-exec-1] INFO  d.c.b.a.registry.ApplicationRegistry -New Application Application [id=43b05411, name=SpringBootAdminServer, managementUrl=http://10.0.0.119:9002, healthUrl=http://10.0.0.119:9002/health, serviceUrl=http://10.0.0.119:9002] registered 
+2018-04-10 17:36:25.992 [http-nio-9002-exec-1] WARN  d.c.b.admin.registry.StatusUpdater -Couldn't retrieve status for Application [id=43b05411, name=SpringBootAdminServer, managementUrl=http://10.0.0.119:9002, healthUrl=http://10.0.0.119:9002/health, serviceUrl=http://10.0.0.119:9002]
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://10.0.0.119:9002/health": Connect to 10.0.0.119:9002 [/10.0.0.119] failed: Operation timed out (Connection timed out); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:9002 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:613)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:312)
+	at de.codecentric.boot.admin.registry.StatusUpdater.queryStatus(StatusUpdater.java:78)
+	at de.codecentric.boot.admin.registry.StatusUpdater.updateStatus(StatusUpdater.java:62)
+	at de.codecentric.boot.admin.registry.StatusUpdateApplicationListener.onClientApplicationRegistered(StatusUpdateApplicationListener.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:253)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:174)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:137)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:350)
+	at de.codecentric.boot.admin.registry.ApplicationRegistry.register(ApplicationRegistry.java:82)
+	at de.codecentric.boot.admin.registry.web.RegistryController.register(RegistryController.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:9002 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:89)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652)
+	... 84 common frames omitted
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 97 common frames omitted
+2018-04-10 17:36:26.036 [registrationTask1] INFO  d.c.b.a.s.ApplicationRegistrator -Application registered itself as {managementUrl=http://10.0.0.119:9002, healthUrl=http://10.0.0.119:9002/health, serviceUrl=http://10.0.0.119:9002, name=SpringBootAdminServer, id=43b05411, statusInfo={status=UNKNOWN, timestamp=1523406910294}}
+2018-04-10 17:36:26.047 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/health/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:36:26.047 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/env/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:36:26.047 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/metrics/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:36:26.047 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/trace/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:36:26.048 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/dump/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:36:26.048 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/jolokia/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:36:26.048 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/info/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:36:26.048 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/logfile/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:36:26.048 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/refresh/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:36:26.048 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/flyway/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:36:26.049 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/liquibase/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:36:26.049 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/43b05411/heapdump/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:36:45.633 [updateTask1] WARN  d.c.b.admin.registry.StatusUpdater -Couldn't retrieve status for Application [id=43b05411, name=SpringBootAdminServer, managementUrl=http://10.0.0.119:9002, healthUrl=http://10.0.0.119:9002/health, serviceUrl=http://10.0.0.119:9002]
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://10.0.0.119:9002/health": Connect to 10.0.0.119:9002 [/10.0.0.119] failed: Operation timed out (Connection timed out); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:9002 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:613)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:312)
+	at de.codecentric.boot.admin.registry.StatusUpdater.queryStatus(StatusUpdater.java:78)
+	at de.codecentric.boot.admin.registry.StatusUpdater.updateStatus(StatusUpdater.java:62)
+	at de.codecentric.boot.admin.registry.StatusUpdater.updateStatusForAllApplications(StatusUpdater.java:55)
+	at de.codecentric.boot.admin.registry.StatusUpdateApplicationListener$1.run(StatusUpdateApplicationListener.java:55)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:9002 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:89)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652)
+	... 14 common frames omitted
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 27 common frames omitted
+2018-04-10 17:37:40.900 [http-nio-9002-exec-9] INFO  d.c.b.a.registry.ApplicationRegistry -New Application Application [id=258c843e, name=eureka-server, managementUrl=http://10.0.0.119:9003, healthUrl=http://10.0.0.119:9003/health, serviceUrl=http://10.0.0.119:9003] registered 
+2018-04-10 17:37:50.061 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/258c843e/health/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:37:50.063 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/258c843e/env/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:37:50.064 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/258c843e/metrics/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:37:50.064 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/258c843e/trace/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:37:50.064 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/258c843e/dump/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:37:50.065 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/258c843e/jolokia/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:37:50.065 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/258c843e/info/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:37:50.066 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/258c843e/logfile/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:37:50.068 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/258c843e/refresh/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:37:50.069 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/258c843e/flyway/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:37:50.071 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/258c843e/liquibase/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:37:50.071 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/258c843e/heapdump/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:38:57.499 [http-nio-9002-exec-9] WARN  d.c.b.admin.registry.StatusUpdater -Couldn't retrieve status for Application [id=258c843e, name=eureka-server, managementUrl=http://10.0.0.119:9003, healthUrl=http://10.0.0.119:9003/health, serviceUrl=http://10.0.0.119:9003]
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://10.0.0.119:9003/health": Connect to 10.0.0.119:9003 [/10.0.0.119] failed: Operation timed out (Connection timed out); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:9003 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:613)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:312)
+	at de.codecentric.boot.admin.registry.StatusUpdater.queryStatus(StatusUpdater.java:78)
+	at de.codecentric.boot.admin.registry.StatusUpdater.updateStatus(StatusUpdater.java:62)
+	at de.codecentric.boot.admin.registry.StatusUpdateApplicationListener.onClientApplicationRegistered(StatusUpdateApplicationListener.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:253)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:174)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:137)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:350)
+	at de.codecentric.boot.admin.registry.ApplicationRegistry.register(ApplicationRegistry.java:82)
+	at de.codecentric.boot.admin.registry.web.RegistryController.register(RegistryController.java:60)
+	at sun.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:9003 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:89)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652)
+	... 83 common frames omitted
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 96 common frames omitted
+2018-04-10 17:39:31.894 [updateTask1] WARN  d.c.b.admin.registry.StatusUpdater -Couldn't retrieve status for Application [id=258c843e, name=eureka-server, managementUrl=http://10.0.0.119:9003, healthUrl=http://10.0.0.119:9003/health, serviceUrl=http://10.0.0.119:9003]
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://10.0.0.119:9003/health": Connect to 10.0.0.119:9003 [/10.0.0.119] failed: Operation timed out (Connection timed out); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:9003 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:613)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:312)
+	at de.codecentric.boot.admin.registry.StatusUpdater.queryStatus(StatusUpdater.java:78)
+	at de.codecentric.boot.admin.registry.StatusUpdater.updateStatus(StatusUpdater.java:62)
+	at de.codecentric.boot.admin.registry.StatusUpdater.updateStatusForAllApplications(StatusUpdater.java:55)
+	at de.codecentric.boot.admin.registry.StatusUpdateApplicationListener$1.run(StatusUpdateApplicationListener.java:55)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:9003 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:89)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652)
+	... 14 common frames omitted
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 27 common frames omitted
+2018-04-10 17:41:09.321 [http-nio-9002-exec-8] INFO  d.c.b.a.registry.ApplicationRegistry -New Application Application [id=db716542, name=payment-service, managementUrl=http://10.0.0.119:8082, healthUrl=http://10.0.0.119:8082/health, serviceUrl=http://10.0.0.119:8082] registered 
+2018-04-10 17:41:10.064 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/db716542/health/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:10.064 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/db716542/env/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:10.065 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/db716542/metrics/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:10.065 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/db716542/trace/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:10.065 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/db716542/dump/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:10.065 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/db716542/jolokia/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:10.065 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/db716542/info/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:10.065 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/db716542/logfile/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:10.066 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/db716542/refresh/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:10.066 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/db716542/flyway/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:10.066 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/db716542/liquibase/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:10.067 [http-nio-9002-exec-10] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/db716542/heapdump/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:25.520 [http-nio-9002-exec-5] INFO  d.c.b.a.registry.ApplicationRegistry -New Application Application [id=01a72b72, name=order-service, managementUrl=http://10.0.0.119:8083, healthUrl=http://10.0.0.119:8083/health, serviceUrl=http://10.0.0.119:8083] registered 
+2018-04-10 17:41:30.121 [http-nio-9002-exec-6] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/01a72b72/health/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:30.124 [http-nio-9002-exec-6] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/01a72b72/env/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:30.124 [http-nio-9002-exec-6] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/01a72b72/metrics/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:30.125 [http-nio-9002-exec-6] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/01a72b72/trace/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:30.126 [http-nio-9002-exec-6] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/01a72b72/dump/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:30.127 [http-nio-9002-exec-6] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/01a72b72/jolokia/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:30.130 [http-nio-9002-exec-6] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/01a72b72/info/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:30.130 [http-nio-9002-exec-6] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/01a72b72/logfile/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:30.130 [http-nio-9002-exec-6] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/01a72b72/refresh/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:30.130 [http-nio-9002-exec-6] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/01a72b72/flyway/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:30.131 [http-nio-9002-exec-6] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/01a72b72/liquibase/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:30.131 [http-nio-9002-exec-6] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/01a72b72/heapdump/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:42.470 [http-nio-9002-exec-3] INFO  d.c.b.a.registry.ApplicationRegistry -New Application Application [id=f6b0cff7, name=product-service, managementUrl=http://10.0.0.119:8081, healthUrl=http://10.0.0.119:8081/health, serviceUrl=http://10.0.0.119:8081] registered 
+2018-04-10 17:41:50.082 [http-nio-9002-exec-7] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/f6b0cff7/health/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:50.087 [http-nio-9002-exec-7] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/f6b0cff7/env/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:50.088 [http-nio-9002-exec-7] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/f6b0cff7/metrics/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:50.088 [http-nio-9002-exec-7] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/f6b0cff7/trace/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:50.089 [http-nio-9002-exec-7] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/f6b0cff7/dump/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:50.090 [http-nio-9002-exec-7] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/f6b0cff7/jolokia/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:50.091 [http-nio-9002-exec-7] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/f6b0cff7/info/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:50.092 [http-nio-9002-exec-7] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/f6b0cff7/logfile/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:50.092 [http-nio-9002-exec-7] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/f6b0cff7/refresh/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:50.092 [http-nio-9002-exec-7] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/f6b0cff7/flyway/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:50.092 [http-nio-9002-exec-7] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/f6b0cff7/liquibase/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:41:50.092 [http-nio-9002-exec-7] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/f6b0cff7/heapdump/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:42:25.369 [http-nio-9002-exec-8] WARN  d.c.b.admin.registry.StatusUpdater -Couldn't retrieve status for Application [id=db716542, name=payment-service, managementUrl=http://10.0.0.119:8082, healthUrl=http://10.0.0.119:8082/health, serviceUrl=http://10.0.0.119:8082]
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://10.0.0.119:8082/health": Connect to 10.0.0.119:8082 [/10.0.0.119] failed: Operation timed out (Connection timed out); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:8082 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:613)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:312)
+	at de.codecentric.boot.admin.registry.StatusUpdater.queryStatus(StatusUpdater.java:78)
+	at de.codecentric.boot.admin.registry.StatusUpdater.updateStatus(StatusUpdater.java:62)
+	at de.codecentric.boot.admin.registry.StatusUpdateApplicationListener.onClientApplicationRegistered(StatusUpdateApplicationListener.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:253)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:174)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:137)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:350)
+	at de.codecentric.boot.admin.registry.ApplicationRegistry.register(ApplicationRegistry.java:82)
+	at de.codecentric.boot.admin.registry.web.RegistryController.register(RegistryController.java:60)
+	at sun.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:8082 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:89)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652)
+	... 83 common frames omitted
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 96 common frames omitted
+2018-04-10 17:42:41.667 [http-nio-9002-exec-5] WARN  d.c.b.admin.registry.StatusUpdater -Couldn't retrieve status for Application [id=01a72b72, name=order-service, managementUrl=http://10.0.0.119:8083, healthUrl=http://10.0.0.119:8083/health, serviceUrl=http://10.0.0.119:8083]
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://10.0.0.119:8083/health": Connect to 10.0.0.119:8083 [/10.0.0.119] failed: Operation timed out (Connection timed out); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:8083 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:613)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:312)
+	at de.codecentric.boot.admin.registry.StatusUpdater.queryStatus(StatusUpdater.java:78)
+	at de.codecentric.boot.admin.registry.StatusUpdater.updateStatus(StatusUpdater.java:62)
+	at de.codecentric.boot.admin.registry.StatusUpdateApplicationListener.onClientApplicationRegistered(StatusUpdateApplicationListener.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:253)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:174)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:137)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:350)
+	at de.codecentric.boot.admin.registry.ApplicationRegistry.register(ApplicationRegistry.java:82)
+	at de.codecentric.boot.admin.registry.web.RegistryController.register(RegistryController.java:60)
+	at sun.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:8083 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:89)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652)
+	... 83 common frames omitted
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 96 common frames omitted
+2018-04-10 17:42:58.621 [http-nio-9002-exec-3] WARN  d.c.b.admin.registry.StatusUpdater -Couldn't retrieve status for Application [id=f6b0cff7, name=product-service, managementUrl=http://10.0.0.119:8081, healthUrl=http://10.0.0.119:8081/health, serviceUrl=http://10.0.0.119:8081]
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://10.0.0.119:8081/health": Connect to 10.0.0.119:8081 [/10.0.0.119] failed: Operation timed out (Connection timed out); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:8081 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:613)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:312)
+	at de.codecentric.boot.admin.registry.StatusUpdater.queryStatus(StatusUpdater.java:78)
+	at de.codecentric.boot.admin.registry.StatusUpdater.updateStatus(StatusUpdater.java:62)
+	at de.codecentric.boot.admin.registry.StatusUpdateApplicationListener.onClientApplicationRegistered(StatusUpdateApplicationListener.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:253)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:174)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:137)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:350)
+	at de.codecentric.boot.admin.registry.ApplicationRegistry.register(ApplicationRegistry.java:82)
+	at de.codecentric.boot.admin.registry.web.RegistryController.register(RegistryController.java:60)
+	at sun.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:8081 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:89)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652)
+	... 83 common frames omitted
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 96 common frames omitted
+2018-04-10 17:43:19.918 [updateTask1] WARN  d.c.b.admin.registry.StatusUpdater -Couldn't retrieve status for Application [id=f6b0cff7, name=product-service, managementUrl=http://10.0.0.119:8081, healthUrl=http://10.0.0.119:8081/health, serviceUrl=http://10.0.0.119:8081]
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://10.0.0.119:8081/health": Connect to 10.0.0.119:8081 [/10.0.0.119] failed: Operation timed out (Connection timed out); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:8081 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:613)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:312)
+	at de.codecentric.boot.admin.registry.StatusUpdater.queryStatus(StatusUpdater.java:78)
+	at de.codecentric.boot.admin.registry.StatusUpdater.updateStatus(StatusUpdater.java:62)
+	at de.codecentric.boot.admin.registry.StatusUpdater.updateStatusForAllApplications(StatusUpdater.java:55)
+	at de.codecentric.boot.admin.registry.StatusUpdateApplicationListener$1.run(StatusUpdateApplicationListener.java:55)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:8081 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:89)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652)
+	... 14 common frames omitted
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 27 common frames omitted
+2018-04-10 17:45:36.184 [http-nio-9002-exec-8] INFO  d.c.b.a.registry.ApplicationRegistry -New Application Application [id=8540d4b3, name=account-service, managementUrl=http://10.0.0.119:8080, healthUrl=http://10.0.0.119:8080/health, serviceUrl=http://10.0.0.119:8080] registered 
+2018-04-10 17:45:39.308 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/8540d4b3/health/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:45:39.316 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/8540d4b3/env/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:45:39.317 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/8540d4b3/metrics/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:45:39.317 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/8540d4b3/trace/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:45:39.317 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/8540d4b3/dump/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:45:39.318 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/8540d4b3/jolokia/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:45:39.318 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/8540d4b3/info/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:45:39.318 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/8540d4b3/logfile/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:45:39.319 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/8540d4b3/refresh/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:45:39.322 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/8540d4b3/flyway/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:45:39.323 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/8540d4b3/liquibase/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:45:39.331 [http-nio-9002-exec-2] INFO  o.s.c.n.zuul.web.ZuulHandlerMapping -Mapped URL path [/api/applications/8540d4b3/heapdump/**] onto handler of type [class de.codecentric.boot.admin.zuul.OptionsDispatchingZuulController]
+2018-04-10 17:46:52.337 [http-nio-9002-exec-8] WARN  d.c.b.admin.registry.StatusUpdater -Couldn't retrieve status for Application [id=8540d4b3, name=account-service, managementUrl=http://10.0.0.119:8080, healthUrl=http://10.0.0.119:8080/health, serviceUrl=http://10.0.0.119:8080]
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://10.0.0.119:8080/health": Connect to 10.0.0.119:8080 [/10.0.0.119] failed: Operation timed out (Connection timed out); nested exception is org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:8080 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:666)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:613)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:312)
+	at de.codecentric.boot.admin.registry.StatusUpdater.queryStatus(StatusUpdater.java:78)
+	at de.codecentric.boot.admin.registry.StatusUpdater.updateStatus(StatusUpdater.java:62)
+	at de.codecentric.boot.admin.registry.StatusUpdateApplicationListener.onClientApplicationRegistered(StatusUpdateApplicationListener.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:253)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:174)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:137)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:383)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:350)
+	at de.codecentric.boot.admin.registry.ApplicationRegistry.register(ApplicationRegistry.java:82)
+	at de.codecentric.boot.admin.registry.web.RegistryController.register(RegistryController.java:60)
+	at sun.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.0.0.119:8080 [/10.0.0.119] failed: Operation timed out (Connection timed out)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:89)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:652)
+	... 83 common frames omitted
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 96 common frames omitted
+2018-04-10 17:57:59.960 [Thread-7] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5c3bd550: startup date [Tue Apr 10 17:35:05 PDT 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@368239c8
+2018-04-10 17:58:00.040 [Thread-7] INFO  o.s.c.s.DefaultLifecycleProcessor -Stopping beans in phase 0
+2018-04-10 17:58:00.054 [Thread-7] INFO  o.s.s.c.ThreadPoolTaskScheduler -Shutting down ExecutorService 'updateTaskScheduler'
+2018-04-10 17:58:00.091 [Thread-7] INFO  o.s.j.e.a.AnnotationMBeanExporter -Unregistering JMX-exposed beans on shutdown
+2018-04-10 17:58:00.094 [Thread-7] INFO  o.s.j.e.a.AnnotationMBeanExporter -Unregistering JMX-exposed beans
+2018-04-10 17:58:00.095 [Thread-7] INFO  o.s.s.c.ThreadPoolTaskScheduler -Shutting down ExecutorService 'registrationTaskScheduler'
+2018-04-10 17:58:00.193 [localhost-startStop-2] INFO  o.s.c.n.zuul.ZuulFilterInitializer -Stopping filter initializer context listener
